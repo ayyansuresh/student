@@ -1,0 +1,106 @@
+body {
+    font-family: comic sans;
+}
+.arrow_left {
+    padding-left: 60px;
+}
+.icon_arrow {
+    font-size: 30px;
+    color:black;
+}
+.datepicker_class {
+    position: relative;
+}
+.icon_calender:hover {
+    cursor: pointer;
+}
+.icon_calender {
+    position: absolute;
+    top:5px;
+    right: 30px;
+    font-size:18px;
+    color:black;
+}
+.about_text {
+    height:130px;
+}
+.submit_btn {
+    height:43px;
+    width:130px;
+    color:white;
+    background-color: black;
+    border-radius: 30px;
+}
+
+
+/* Date picker css */
+.react-datepicker {
+    background-color: #f0f0f0!important;
+    border: none !important;;
+}
+
+.react-datepicker__children-container {
+    width: auto !important;
+}
+
+.react-datepicker-popper[data-placement^=bottom] .react-datepicker__triangle {
+    top: 0;
+    margin-top: -8px;
+    display: none;
+}
+.react-datepicker__header {
+    text-align:left!important;
+    margin-left: 18px;
+    font-family: monospace;
+    background-color:#f0f0f0!important; 
+    border-bottom: none!important;
+} 
+.react-datepicker__day-name {
+    text-align:left!important;
+    margin-left: 9px;
+    color:black;
+    width: 2rem!important;
+}
+.react-datepicker__day {
+    color: #747474 !important;
+    font-size: 11px;
+    width: 2rem!important;
+    line-height: 1.7rem!important;
+    text-align: center!important;
+    margin: 0.19rem!important;
+}
+
+.react-datepicker__day--selected  {
+    background-color:black!important;
+    border-radius:50%!important;
+}
+.react-datepicker__navigation {
+    top: 8px!important;
+}
+.react-datepicker__navigation--previous {
+    left: 208px!important;
+}
+
+.cancel_btn {
+    border-radius: 20px;
+    background-color: white;
+    color:black;
+    width:80px;
+    height:36px;
+    font-family: 'outfit';
+    border-color:black;
+    margin-left:10px;
+}
+
+.apply_btn {
+    border-radius: 20px;
+    width:80px;
+    height:36px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    font-family: 'outfit';
+    border-color:black;
+    float:right;
+    margin-right:10px;
+}

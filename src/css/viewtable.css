@@ -1,0 +1,144 @@
+.heading {
+    font-family: 'Outfit';
+    font-style: SemiBold;
+    font-size:26px;
+    font-weight:bold;
+}
+
+.input_group {
+    position: relative;
+}
+
+.search_input {
+    display: inline-block;
+    width:398px;
+    height:45px;
+    padding:15px 10px 15px 20px;
+    border: 0.5px solid #A9A9A9;
+    border-radius: 5px;
+}
+
+.icon_search {
+    position: absolute;
+    top:10px;
+    right: 30px;
+    font-size:15px;
+    color:#747474;
+}
+
+.addnew_student {
+    border-radius: 30px;
+    width: 130px;
+    height:45px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
+.viewuser_table { 
+    position: relative;
+}
+.viewuser_table thead tr {
+    border:1px solid #E6E6FA;
+}
+
+.viewuser_table tbody tr {
+    border:1px solid #E6E6FA;
+    color: #747474;
+}
+
+.viewuser_table thead tr th:first-child {
+    padding:25px 15px 25px 15px;
+}
+
+.viewuser_table tbody tr td:first-child {
+    padding:45px 15px 45px 15px;
+}
+
+.viewuser_table thead tr th:last-child {
+    padding:25px 15px 25px 15px;
+}
+
+.viewuser_table tbody tr td:last-child {
+    padding:45px 15px 45px 15px;
+}
+
+.viewuser_table thead tr th {
+    padding:25px 0px 25px 0px;
+}
+
+.viewuser_table tbody tr td {
+    padding:45px 0px 45px 0px;
+}
+
+.icon_edit {
+    font-size: 16px;
+}
+
+.icon_delete {
+    font-size: 16px;
+    color:red;
+}
+
+.edit_btn {
+    text-decoration: none;
+}
+
+.delete_btn {
+    text-decoration: none;
+    color:red;
+    border:none;
+    background-color:white;
+}
+
+.modal.show .modal-dialog  {
+    top:30%;
+
+}
+
+.modal-content {
+    margin:0 auto;
+    height:auto;
+    width:330px;
+    border-radius: 10px;
+}
+.modal-header {
+    border-bottom: none;
+}
+.modal-body {
+    padding-top:0px;
+}
+.icon_delete_bigsize {
+    font-size:40px;
+    color:black;
+    margin:0 auto;
+}
+.delete_text {
+    width:200px!important;
+    margin:0 auto;
+    font-size:16px;
+    font-family: 'outfit';
+    color:black;
+    text-align: center;
+}
+
+.cancel_btn {
+    border-radius: 20px;
+    background-color: white;
+    color:black;
+    width:120px;
+    height:35px;
+    font-family: 'outfit';
+    border-color:black;
+}
+
+.yes_btn {
+    border-radius: 20px;
+    width:120px;
+    height:35px;
+    background-color: black;
+    color:white;
+    font-family: 'outfit';
+    border-color:black;
+}
